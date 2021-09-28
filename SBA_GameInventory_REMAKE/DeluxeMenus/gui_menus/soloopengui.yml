@@ -1,0 +1,82 @@
+menu_title: '&9BEDWARS SOLO'
+open_command: soloopengui
+size: 36
+update_interval: 1
+items:
+  'RandomJoin':
+    material: RED_BED
+    slot: 12
+    priority: 1
+    display_name: '&7Random Join Solo'
+    lore:
+    - ''
+    - '&7Join Solo maps randomly!'
+    - '&7Description: &b1.8-1.17'
+    - ''
+    - '&fClick to join!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[message] &7Connecting to server &aSOLO&7...'
+    - '[player] sbajoin solos'
+    right_click_commands:
+    - '[close]'
+    - '[message] &7Connecting to server &aSOLO&7...'
+    - '[player] sbajoin solos'
+  'MapJoin':
+    material: MAP
+    slot: 14
+    priority: 1
+    display_name: '&7Join Solo with maps'
+    lore:
+    - ''
+    - '&7Join Solo maps!'
+    - '&7Description: &b1.8-1.17'
+    - ''
+    - '&fClick to join with map!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[message] &7Opening map GUI'
+    - '[player] dm open solomapgui'
+    right_click_commands:
+    - '[close]'
+    - '[message] &7Opening Map GUI'
+    - '[player] dm open solomapgui'
+  'Close':
+    material: Barrier
+    slot: 31
+    priority: 1
+    display_name: '&7Close GUI'
+    lore:
+    - ''
+    - '&7Close GUI'
+    - ''
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  'Rejoin':
+    material: ENDER_PEARL
+    slot: 35
+    priority: 1
+    display_name: '&7REJOIN SOLO GAME'
+    lore:
+    - ''
+    - '&7Rejoin Solo maps!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[message] &7REJOIN game'
+    - '[player] bw rejoin'
+    right_click_commands:
+    - '[close]'
+    - '[message] &7REJOIN game'
+    - '[player] bw rejoin'
+    
+    
+#
+#By KnowItAll Network
+#For pronze
+#Developer of SBA
+#

@@ -1,0 +1,30 @@
+menu_title: '&9BEDWARS SOLO'
+open_command: solomapgui
+size: 54
+update_interval: 1
+items:
+  'RandomJoin':
+    material: MAP
+    slot: 11
+    priority: 1
+    display_name: '&aWaterfall'
+    lore:
+    - ''
+    - '&7Join Waterfall!'
+    - '&fClick to join!'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[message] &7Connecting to &aWATERFALL&7...'
+    - '[player] bw join waterfall'
+    right_click_commands:
+    - '[close]'
+    - '[message] &7Connecting to &aWATERFALL&7...'
+    - '[player] bw join waterfall'
+    
+    
+#
+#By KnowItAll Network
+#For pronze
+#Developer of SBA
+#
